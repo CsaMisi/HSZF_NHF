@@ -12,24 +12,14 @@ namespace NVRTMG_HSZF_2024251
     {
         static async Task Main(string[] args)
         {
+            string conString = "Server=(localdb)\\MSSQLLocalDB;Database=BusServices;Trusted_Connection=True;";
+            var options = new DbContextOptionsBuilder<BusServicesContext>()
+                            .UseSqlServer(conString)
+                            .Options;
+            using var context = new BusServicesContext(options);
+            await context.Database.MigrateAsync();
             MenuFunctions.mainMenu.ShowMenu();
-            string conString = "";
-            try
-            {
-                var options = new DbContextOptionsBuilder<AppDbContext>()
-                                .UseSqlServer(conString)
-                                .Options;
-                using var context = new AppDbContext(options);
-
-                await context.Database.MigrateAsync();
-            }
-            catch (Exception)
-            {
-                throw new ConnectionStringException(nameof(conString) + " is not a valid connection String");
-            }
-
-
-
+            
         }
     }
 }
