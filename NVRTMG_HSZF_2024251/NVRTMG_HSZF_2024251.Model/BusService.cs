@@ -1,21 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NVRTMG_HSZF_2024251.Model
+namespace NVRTMG_HSZF_2024251.Model;
+
+public partial class BusService
 {
-    public  class BusService
-    {
-        public int Id { get; set; }
-        public int RegionId { get; set; }
-        public string From { get; set; }
-        public string To { get; set; }
-        public int BusNumber { get; set; }
-        public int DelayAmount { get; set; }
-        public string BusType { get; set; }
+    public int Id { get; set; }
 
-        public Region Region { get; set; }
-    }
+    public int RegionId { get; set; }
+
+    public string From { get; set; } = null!;
+
+    public string To { get; set; } = null!;
+
+    public int BusNumber { get; set; }
+
+    public int DelayAmount { get; set; }
+
+    public string BusType { get; set; } = null!;
+
+    public virtual Region Region { get; set; } = null!;
 }

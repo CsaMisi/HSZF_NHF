@@ -1,45 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|solutionrelative:nvrtmg_hszf_2024251.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.presistence.mssql\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|solutionrelative:nvrtmg_hszf_2024251.presistence.mssql\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.application\\jsonimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|solutionrelative:nvrtmg_hszf_2024251.application\\jsonimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.application\\nvrtmg_hszf_2024251.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|solutionrelative:nvrtmg_hszf_2024251.application\\nvrtmg_hszf_2024251.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.console\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.console\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|solutionrelative:nvrtmg_hszf_2024251.console\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.presistence.mssql\\nvrtmg_hszf_2024251.presistence.mssql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|solutionrelative:nvrtmg_hszf_2024251.presistence.mssql\\nvrtmg_hszf_2024251.presistence.mssql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.application\\jsonimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|solutionrelative:nvrtmg_hszf_2024251.application\\jsonimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.application\\exceptions\\connectionstringexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|solutionrelative:nvrtmg_hszf_2024251.application\\exceptions\\connectionstringexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.presistence.mssql\\busservicescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|solutionrelative:nvrtmg_hszf_2024251.presistence.mssql\\busservicescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{023DAC52-6B1E-4A4B-A48C-E27D4EAD7F8D}|NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.model\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{023DAC52-6B1E-4A4B-A48C-E27D4EAD7F8D}|NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.model\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023DAC52-6B1E-4A4B-A48C-E27D4EAD7F8D}|NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj|solutionrelative:nvrtmg_hszf_2024251.model\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{023DAC52-6B1E-4A4B-A48C-E27D4EAD7F8D}|NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.model\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{023DAC52-6B1E-4A4B-A48C-E27D4EAD7F8D}|NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.model\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023DAC52-6B1E-4A4B-A48C-E27D4EAD7F8D}|NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj|solutionrelative:nvrtmg_hszf_2024251.model\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|c:\\oe\\03\\hszf\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.console\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.presistence.mssql\\nvrtmg_hszf_2024251.presistence.mssql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88C14FA1-9939-4C85-B39D-AFC038C3D753}|NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj|solutionrelative:nvrtmg_hszf_2024251.presistence.mssql\\nvrtmg_hszf_2024251.presistence.mssql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.application\\nvrtmg_hszf_2024251.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{263A273D-AE5A-470B-B017-6489224815F3}|NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj|solutionrelative:nvrtmg_hszf_2024251.application\\nvrtmg_hszf_2024251.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|c:\\users\\user\\desktop\\nagyh\u00E1zi\\hszf_nhf\\nvrtmg_hszf_2024251\\nvrtmg_hszf_2024251.console\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1B3761-E05C-4B13-BA89-FC09CB42A747}|NVRTMG_HSZF_2024251.Console\\NVRTMG_HSZF_2024251.Console.csproj|solutionrelative:nvrtmg_hszf_2024251.console\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -53,130 +49,116 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\Region.cs",
+              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Model\\Region.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\Region.cs",
+              "RelativeToolTip": "NVRTMG_HSZF_2024251.Model\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:02:35.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConnectionStringException.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\Exceptions\\ConnectionStringException.cs",
-              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Application\\Exceptions\\ConnectionStringException.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\Exceptions\\ConnectionStringException.cs",
-              "RelativeToolTip": "NVRTMG_HSZF_2024251.Application\\Exceptions\\ConnectionStringException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BusService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\BusService.cs",
+              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Model\\BusService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\BusService.cs",
+              "RelativeToolTip": "NVRTMG_HSZF_2024251.Model\\BusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:56:40.27Z"
+              "WhenOpened": "2024-11-30T14:02:10.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusServicesContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\BusServicesContext.cs",
+              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Presistence.MsSql\\BusServicesContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\BusServicesContext.cs",
+              "RelativeToolTip": "NVRTMG_HSZF_2024251.Presistence.MsSql\\BusServicesContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:53:48.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\Program.cs",
               "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Console\\Program.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\Program.cs",
               "RelativeToolTip": "NVRTMG_HSZF_2024251.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T03:30:48.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MenuFunctions.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuFunctions.cs",
               "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Console\\MenuFunctions.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuFunctions.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuFunctions.cs",
               "RelativeToolTip": "NVRTMG_HSZF_2024251.Console\\MenuFunctions.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAADwvzkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:32:43.926Z"
+              "WhenOpened": "2024-11-20T09:32:43.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "NVRTMG_HSZF_2024251.Application.csproj",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
               "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
               "RelativeToolTip": "NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-23T13:26:37.715Z"
+              "WhenOpened": "2024-11-23T13:26:37.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "JsonImporter.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\JsonImporter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\JsonImporter.cs",
               "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Application\\JsonImporter.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\JsonImporter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\JsonImporter.cs",
               "RelativeToolTip": "NVRTMG_HSZF_2024251.Application\\JsonImporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADgvyMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:26:50.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BusService.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\BusService.cs",
-              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Model\\BusService.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\BusService.cs",
-              "RelativeToolTip": "NVRTMG_HSZF_2024251.Model\\BusService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:24:38.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Region.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\Region.cs",
-              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Model\\Region.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\Region.cs",
-              "RelativeToolTip": "NVRTMG_HSZF_2024251.Model\\Region.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:23:36.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Presistence.MsSql\\AppDbContext.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\AppDbContext.cs",
-              "RelativeToolTip": "NVRTMG_HSZF_2024251.Presistence.MsSql\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:21:18.748Z",
+              "WhenOpened": "2024-11-23T13:26:50.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
               "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
               "RelativeToolTip": "NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-23T13:18:07.963Z"
+              "WhenOpened": "2024-11-23T13:18:07.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuManager.cs",
               "RelativeDocumentMoniker": "NVRTMG_HSZF_2024251.Console\\MenuManager.cs",
-              "ToolTip": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nagyh\u00E1zi\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Console\\MenuManager.cs",
               "RelativeToolTip": "NVRTMG_HSZF_2024251.Console\\MenuManager.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwD4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
