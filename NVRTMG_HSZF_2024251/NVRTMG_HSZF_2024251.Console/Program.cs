@@ -12,8 +12,7 @@ namespace NVRTMG_HSZF_2024251
     {
         static async Task Main(string[] args)
         {
-            MenuFunctions.mainMenu.ShowMenu();
-            string conString = "";
+            string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=persondb;Integrated Security=True;MultipleActiveResultSets=true";
             try
             {
                 var options = new DbContextOptionsBuilder<AppDbContext>()
@@ -27,6 +26,7 @@ namespace NVRTMG_HSZF_2024251
             {
                 throw new ConnectionStringException(nameof(conString) + " is not a valid connection String");
             }
+            MenuFunctions.mainMenu.ShowMenu();
 
 
 
