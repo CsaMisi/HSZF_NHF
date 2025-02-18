@@ -40,4 +40,3 @@ The project is structured into several layers and projects:
 
 ## Conclusion
 This project demonstrates the ability to develop a layered application with a focus on data processing, management, and user interaction. The code is structured to ensure maintainability and scalability.
-````
