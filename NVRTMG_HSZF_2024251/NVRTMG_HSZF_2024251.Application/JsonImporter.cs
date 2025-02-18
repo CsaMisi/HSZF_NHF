@@ -33,9 +33,9 @@ namespace NVRTMG_HSZF_2024251.Application
     }
     public class JsonImporter
     {
-        private readonly BusServicesContext context;
+        private readonly AppDbContext context;
 
-        public JsonImporter(BusServicesContext context)
+        public JsonImporter(AppDbContext context)
         {
             this.context = context;
         }
