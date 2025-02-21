@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {}
   },
   "projects": {
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
         "projectName": "NVRTMG_HSZF_2024251.Model",
-        "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,13 @@
+
+    {
+        "BusRegions": [
+            {
+                "RegionName": "TestRegion",
+                "RegionNumber": "123",
+                "Services": [
+                    { "From": "A", "To": "B", "BusNumber": 101, "DelayAmount": 5, "BusType": "Local" },
+                    { "From": "C", "To": "D", "BusNumber": 102, "DelayAmount": 10, "BusType": "Express" }
+                ]
+            }
+        ]
+    }

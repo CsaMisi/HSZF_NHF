@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1as+0/Br4ig=",
+  "dgSpecHash": "Emji21S8RZs=",
   "success": true,
-  "projectFilePath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
+  "projectFilePath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

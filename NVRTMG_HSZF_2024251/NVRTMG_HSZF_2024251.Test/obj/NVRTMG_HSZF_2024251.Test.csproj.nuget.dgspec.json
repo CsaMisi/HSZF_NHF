@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj": {}
   },
   "projects": {
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj": {
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
         "projectName": "NVRTMG_HSZF_2024251.Application",
-        "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
-                "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj"
+              "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj"
               },
-              "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj": {
-                "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj"
+              "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
         "projectName": "NVRTMG_HSZF_2024251.Model",
-        "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj": {
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
         "projectName": "NVRTMG_HSZF_2024251.Presistence.MsSql",
-        "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,8 +170,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
-                "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj"
+              "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj"
               }
             }
           }
@@ -230,14 +230,14 @@
         }
       }
     },
-    "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj": {
+    "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj",
         "projectName": "NVRTMG_HSZF_2024251.Test",
-        "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -259,14 +259,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj": {
-                "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj"
+              "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Application\\NVRTMG_HSZF_2024251.Application.csproj"
               },
-              "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
-                "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj"
+              "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Model\\NVRTMG_HSZF_2024251.Model.csproj"
               },
-              "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj": {
-                "projectPath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj"
+              "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Presistence.MsSql\\NVRTMG_HSZF_2024251.Presistence.MsSql.csproj"
               }
             }
           }
@@ -285,6 +285,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

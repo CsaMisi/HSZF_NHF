@@ -1,94 +1,125 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.Json;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
-using NVRTMG_HSZF_2024251.Presistence.MsSql;
-using System.Runtime.InteropServices;
 using NVRTMG_HSZF_2024251.Model;
+using NVRTMG_HSZF_2024251.Presistence.MsSql;
 
-namespace NVRTMG_HSZF_2024251.Application
+namespace NVRTMG_HSZF_2024251.Application;
+
+public class BusRegionDto
 {
-    public class BusRegionDto
+    [JsonPropertyName("BusRegions")]
+    public List<RegionDto> BusRegions { get; set; } = new();
+}
+
+public class RegionDto
+{
+    [JsonPropertyName("RegionName")]
+    public string RegionName { get; set; } = string.Empty;
+
+    [JsonPropertyName("RegionNumber")]
+    public string RegionNumber { get; set; } = string.Empty;
+
+    [JsonPropertyName("Services")]
+    public List<ServiceDto> Services { get; set; } = new();
+}
+
+public class ServiceDto
+{
+    [JsonPropertyName("From")]
+    public string From { get; set; } = string.Empty;
+
+    [JsonPropertyName("To")]
+    public string To { get; set; } = string.Empty;
+
+    [JsonPropertyName("BusNumber")]
+    public int BusNumber { get; set; }
+
+    [JsonPropertyName("DelayAmount")]
+    public int DelayAmount { get; set; }
+
+    [JsonPropertyName("BusType")]
+    public string BusType { get; set; } = string.Empty;
+}
+
+//gave up on multithreading, for some reason it refused to work and i ran out of time
+public class JsonImporter
+{
+    private readonly BusServicesContext _context;
+    private int AddedDataCounter { get; set; }
+
+    public bool AddedAnything => AddedDataCounter > 0;
+
+    public JsonImporter(BusServicesContext context)
     {
-        public List<RegionDto> BusRegions { get; set; }
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+        AddedDataCounter = 0;
     }
 
-    public class RegionDto
+    public void ImportFile(string path)
     {
-        public string RegionName { get; set; }
-        public string RegionNumber { get; set; }
-        public List<ServiceDto> Services { get; set; }
-    }
+        if (string.IsNullOrWhiteSpace(path))
+            throw new ArgumentException("File path cannot be null or empty.", nameof(path));
 
-    public class ServiceDto
-    {
-        public string From { get; set; }
-        public string To { get; set; }
-        public int BusNumber { get; set; }
-        public int DelayAmount { get; set; }
-        public string BusType { get; set; }
-    }
-    public class JsonImporter
-    {
-        private readonly AppDbContext context;
+        if (!File.Exists(path))
+            throw new FileNotFoundException("File not found.", path);
 
-        public JsonImporter(AppDbContext context)
+        var jsonString = File.ReadAllText(path);
+        var data = JsonSerializer.Deserialize<BusRegionDto>(jsonString);
+
+        if (data?.BusRegions == null || !data.BusRegions.Any())
+            throw new InvalidOperationException("No regions found in the JSON file.");
+
+        foreach (var regionDto in data.BusRegions)
         {
-            this.context = context;
-        }
+            if (string.IsNullOrWhiteSpace(regionDto.RegionNumber))
+                continue;
 
-        public async Task ImportFile(string path)
-        {
-            var jsonString = await File.ReadAllTextAsync(path);
-            var data = JsonSerializer.Deserialize<BusRegionDto>(jsonString);
+            var existingRegion = _context.Regions
+                .Include(r => r.BusServices)
+                .FirstOrDefault(r => r.RegionNumber == regionDto.RegionNumber);
 
-            foreach (var item in data.BusRegions)
+            if (existingRegion == null)
             {
-                var existingRegion = await context.Regions.Include(x => x.BusServices)
-                    .FirstOrDefaultAsync(x => x.RegionNumber == item.RegionNumber);
-
-                if(existingRegion is null)
+                var newRegion = new Region
                 {
-                    var newRegion = new Region
+                    RegionName = regionDto.RegionName,
+                    RegionNumber = regionDto.RegionNumber,
+                    BusServices = regionDto.Services.Select(s => new BusService
                     {
-                        RegionName = item.RegionName,
-                        RegionNumber = item.RegionNumber,
-                        BusServices = item.Services.Select(x =>
-                        new BusService
-                        {
-                            From = x.From,
-                            To = x.To,
-                            DelayAmount = x.DelayAmount,
-                            BusType = x.BusType,
-                        }).ToList()
-                    };
-                    context.Regions.Add(newRegion);
-                }
-                else
+                        From = s.From,
+                        To = s.To,
+                        BusNumber = s.BusNumber,
+                        DelayAmount = s.DelayAmount,
+                        BusType = s.BusType,
+                    }).ToList()
+                };
+                AddedDataCounter++;
+                _context.Regions.Add(newRegion);
+                Console.WriteLine($"New region {newRegion.RegionName} added");
+            }
+            else
+            {
+                foreach (var service in regionDto.Services)
                 {
-                    foreach (var sercviceDto in item.Services)
+                    if (!existingRegion.BusServices.Any(bs => bs.BusNumber == service.BusNumber))
                     {
-                        if(!existingRegion.BusServices.Any(x=>
-                        x.BusNumber == sercviceDto.BusNumber))
+                        existingRegion.BusServices.Add(new BusService
                         {
-                            existingRegion.BusServices.Add(new BusService
-                            {
-                                From = sercviceDto.From,
-                                To = sercviceDto.To,
-                                BusNumber = sercviceDto.BusNumber,
-                                DelayAmount= sercviceDto.DelayAmount,
-                                BusType= sercviceDto.BusType
-                            });
-                        }
+                            From = service.From,
+                            To = service.To,
+                            BusNumber = service.BusNumber,
+                            DelayAmount = service.DelayAmount,
+                            BusType = service.BusType,
+                        });
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"New service added to {regionDto.RegionName}");
+                        AddedDataCounter++;
                     }
                 }
-                await context.SaveChangesAsync();
             }
         }
+
+        _context.SaveChanges();
     }
-
-
 }

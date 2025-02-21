@@ -1,0 +1,58 @@
+{
+    "BusRegions": [
+      {
+        "RegionName": "North Region",
+        "RegionNumber": "NR-001",
+        "Services": [
+          {
+            "From": "City A",
+            "To": "City B",
+            "BusNumber": 101,
+            "DelayAmount": 5,
+            "BusType": "Express"
+          },
+          {
+            "From": "City C",
+            "To": "City D",
+            "BusNumber": 102,
+            "DelayAmount": 10,
+            "BusType": "Regular"
+          }
+        ]
+      },
+      {
+        "RegionName": "South Region",
+        "RegionNumber": "SR-002",
+        "Services": [
+          {
+            "From": "City E",
+            "To": "City F",
+            "BusNumber": 201,
+            "DelayAmount": 0,
+            "BusType": "Express"
+          },
+          {
+            "From": "City G",
+            "To": "City H",
+            "BusNumber": 202,
+            "DelayAmount": 15,
+            "BusType": "Regular"
+          }
+        ]
+      },
+      {
+        "RegionName": "East Region",
+        "RegionNumber": "ER-003",
+        "Services": [
+          {
+            "From": "City I",
+            "To": "City J",
+            "BusNumber": 301,
+            "DelayAmount": 2,
+            "BusType": "Express"
+          }
+        ]
+      }
+    ]
+  }
+  

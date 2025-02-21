@@ -1,0 +1,21 @@
+Region: North Region (NR-001)
+ - Buses with delay < 10 minutes: 1
+ - Average delay: 7,50 minutes
+ - Least delayed bus: 101 (5 minutes)
+ - Most delayed bus: 102 (10 minutes)
+ - Most common destination with significant delays (>5 minutes): City D
+
+Region: South Region (SR-002)
+ - Buses with delay < 10 minutes: 1
+ - Average delay: 7,50 minutes
+ - Least delayed bus: 201 (0 minutes)
+ - Most delayed bus: 202 (15 minutes)
+ - Most common destination with significant delays (>5 minutes): City H
+
+Region: East Region (ER-003)
+ - Buses with delay < 10 minutes: 1
+ - Average delay: 2,00 minutes
+ - Least delayed bus: 301 (2 minutes)
+ - Most delayed bus: 301 (2 minutes)
+ - No significant delays recorded.
+

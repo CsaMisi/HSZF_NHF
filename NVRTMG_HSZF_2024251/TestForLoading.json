@@ -1,0 +1,56 @@
+{
+  "BusRegions": [
+    {
+      "RegionName": "West Region",
+      "RegionNumber": "WR-004",
+      "Services": [
+        {
+          "From": "City K",
+          "To": "City L",
+          "BusNumber": 401,
+          "DelayAmount": 20,
+          "BusType": "Express"
+        },
+        {
+          "From": "City M",
+          "To": "City N",
+          "BusNumber": 402,
+          "DelayAmount": 0,
+          "BusType": "Regular"
+        }
+      ]
+    },
+    {
+      "RegionName": "Central Region",
+      "RegionNumber": "CR-005",
+      "Services": [
+        {
+          "From": "City O",
+          "To": "City P",
+          "BusNumber": 501,
+          "DelayAmount": 5,
+          "BusType": "Regular"
+        },
+        {
+          "From": "City Q",
+          "To": "City R",
+          "BusNumber": 502,
+          "DelayAmount": 15,
+          "BusType": "Express"
+        },
+        {
+          "From": "City S",
+          "To": "City T",
+          "BusNumber": 503,
+          "DelayAmount": 10,
+          "BusType": "Regular"
+        }
+      ]
+    },
+    {
+      "RegionName": "Remote Region",
+      "RegionNumber": "RR-006",
+      "Services": []
+    }
+  ]
+}

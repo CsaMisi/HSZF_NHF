@@ -1,35 +1,41 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NVRTMG_HSZF_202425.Console;
-using NVRTMG_HSZF_2024251.Application.Exceptions;
-using NVRTMG_HSZF_2024251.Console;
+using NVRTMG_HSZF_2024251.Application;
 using NVRTMG_HSZF_2024251.Presistence.MsSql;
-using System;
-using System.Runtime.CompilerServices;
 
-namespace NVRTMG_HSZF_2024251
+namespace NVRTMG_HSZF_2024251.Console;
+
+internal class Program
 {
-    internal class Program
+    private static async Task Main(string[] args)
     {
-        static async Task Main(string[] args)
+        try
         {
-            string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=persondb;Integrated Security=True;MultipleActiveResultSets=true";
-            try
+            using (var context = DbContextFactory.CreateDbContext())
             {
-                var options = new DbContextOptionsBuilder<AppDbContext>()
-                                .UseSqlServer(conString)
-                                .Options;
-                using var context = new AppDbContext(options);
-
+                System.Console.WriteLine("Migrating database...");
                 await context.Database.MigrateAsync();
             }
-            catch (Exception)
+
+            MenuHandleFunctions.OnSmallestDelay += (busService, region) =>
             {
-                throw new ConnectionStringException(nameof(conString) + " is not a valid connection String");
-            }
-            MenuFunctions.mainMenu.ShowMenu();
+                System.Console.ForegroundColor = ConsoleColor.Cyan;
+                System.Console.WriteLine($"New smallest delay detected! Service {busService.BusNumber} in region {region.RegionName} has the smallest delay of {busService.DelayAmount} minutes.");
+                System.Console.ResetColor();
+            };
 
-
-
+            RunApplication();
+        }
+        catch (Exception ex)
+        {
+            System.Console.ForegroundColor = ConsoleColor.Red;
+            System.Console.WriteLine($"Fatal error: {ex.Message}");
+            System.Console.ResetColor();
         }
     }
+
+    private static void RunApplication()
+    {
+        MenuFunctions.MainMenu.ShowMenu();
+    }
 }
+
