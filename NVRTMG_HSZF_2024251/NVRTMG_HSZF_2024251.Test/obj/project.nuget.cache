@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqxf5HSGeZ0=",
+  "dgSpecHash": "U1G7CWKj98Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Igor\\Desktop\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj",
+  "projectFilePath": "C:\\oe\\03\\HSZF\\HSZF_NHF\\NVRTMG_HSZF_2024251\\NVRTMG_HSZF_2024251.Test\\NVRTMG_HSZF_2024251.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
